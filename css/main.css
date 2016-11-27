@@ -50,3 +50,26 @@ img:nth-child(5){
     display: none;
   }
 }
+
+@media only screen and (min-width: 980px) {
+  img:first-child {
+    float: left;
+    width: 66.666%
+  }
+  img:nth-child(2) {
+    float: right;
+    width: 33.333%
+  }
+  img:nth-child(3) {
+    float: left;
+    width: 33.333%
+  }
+  img:nth-child(4) {
+    float: left;
+    width: 33.333%
+  }
+  img:nth-child(5){
+    float: right;
+    width: 33.333%
+  }
+}
